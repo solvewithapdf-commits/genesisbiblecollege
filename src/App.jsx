@@ -38,9 +38,9 @@ const AREAS = [
 
 const STUDY_FORMATS = [
   { name: "Part-Time", desc: "Flexible learning for students balancing education, work and ministry." },
-  { name: "Weekend", desc: "A weekend-friendly study option." },
-  { name: "Correspondence", desc: "A flexible correspondence-based study option." },
-  { name: "Crash Intensive", desc: "An intensive study format." },
+  { name: "Weekend", desc: "Classes held on weekends for students who study while working or serving during the week." },
+  { name: "Correspondence", desc: "Study by correspondence, allowing students to learn from their own location." },
+  { name: "Crash Intensive", desc: "A concentrated, fast-paced format for students who wish to complete coursework intensively." },
 ];
 
 const CASUAL_PROGRAMS = [
@@ -58,6 +58,160 @@ const CASUAL_PROGRAMS = [
 
 const LOCATIONS = ["Ibadan", "Lagos", "Oyo", "Osun", "Edo", "Niger", "Nasarawa", "Abuja (FCT)"];
 
+const MOTTO = "Equipping Saints, Empowering Leaders, Transforming Nations.";
+
+const MISSION_STATEMENT =
+  "To glorify God by providing sound biblical, theological, and ministerial education that develops spiritual maturity, Christlike character, academic excellence, practical ministry competence, and servant leadership, thereby equipping men and women to fulfill the Great Commission and positively influence the Church, society, and nations.";
+
+const VISION_STATEMENT =
+  "To be a globally recognized center of biblical excellence, theological scholarship, spiritual formation, and ministerial empowerment, raising Christ-centered leaders, ministers, missionaries, revivalists, and kingdom influencers who will transform the Church and impact nations for Jesus Christ.";
+
+const MANDATE_VERSE = "\u201CStudy to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth.\u201D";
+const MANDATE_REF = "2 Timothy 2:15";
+const MANDATE_ITEMS = [
+  "Teaching the Word",
+  "Training ministers",
+  "Developing character",
+  "Building spiritual capacity",
+  "Equipping leaders",
+  "Advancing missions",
+  "Strengthening the Church",
+  "Serving humanity",
+  "Transforming communities",
+  "Extending the Kingdom of God",
+];
+
+const AIMS = [
+  "To glorify God through excellent biblical and theological education.",
+  "To raise spiritually mature Christians who demonstrate the character of Christ.",
+  "To provide sound biblical and theological training for present and future Christian leaders.",
+  "To prepare men and women for effective ministry in the Church and society.",
+  "To develop competent preachers and teachers who rightly divide the Word of Truth.",
+  "To raise servant-leaders who lead with integrity, humility, wisdom, and accountability.",
+  "To equip missionaries and evangelists for the fulfillment of the Great Commission.",
+  "To encourage biblical scholarship and research that contributes meaningfully to Christian thought and ministry.",
+  "To promote prayer, worship, holiness, discipleship, and spiritual formation.",
+  "To develop leaders who can address contemporary social challenges from a biblical worldview.",
+  "To promote unity within the Body of Christ while maintaining sound biblical convictions.",
+  "To prepare graduates for lifelong learning, ministry effectiveness, and kingdom service.",
+];
+
+const OBJECTIVES = [
+  {
+    code: "A",
+    title: "Biblical and Theological Excellence",
+    items: [
+      "Provide comprehensive education in Biblical Studies, Theology, Christian Ministry, Missions, Christian Education, and related disciplines.",
+      "Train students to interpret Scripture responsibly and accurately.",
+      "Develop students' ability to apply biblical truth to contemporary situations.",
+      "Cultivate a strong biblical worldview.",
+    ],
+  },
+  {
+    code: "B",
+    title: "Spiritual Formation",
+    items: [
+      "Develop a disciplined life of prayer, worship, Bible study, fasting, and devotion.",
+      "Cultivate spiritual discernment and sensitivity to the leading of the Holy Spirit.",
+      "Encourage holiness, faithfulness, humility, and obedience to God.",
+      "Help students develop a consistent personal walk with Christ.",
+    ],
+  },
+  {
+    code: "C",
+    title: "Ministerial Competence",
+    intro: "The institution seeks to develop practical competence in:",
+    items: [
+      "Preaching", "Teaching", "Evangelism", "Discipleship", "Pastoral Ministry",
+      "Missions", "Christian Counseling", "Church Administration", "Leadership",
+      "Church Planting", "Conflict Resolution", "Community Engagement",
+    ],
+  },
+  {
+    code: "D",
+    title: "Character Development",
+    intro: "The institution seeks to produce graduates whose character matches their calling, with emphasis on:",
+    items: [
+      "Integrity", "Honesty", "Faithfulness", "Accountability", "Humility",
+      "Compassion", "Self-discipline", "Sexual purity", "Financial integrity", "Respect for others",
+    ],
+  },
+  {
+    code: "E",
+    title: "Leadership Development",
+    intro: "Develop leaders who can:",
+    items: [
+      "Lead ethically",
+      "Make wise decisions",
+      "Manage people and resources responsibly",
+      "Build healthy ministries",
+      "Mentor younger leaders",
+      "Handle authority responsibly",
+      "Lead through challenges and crises",
+    ],
+  },
+  {
+    code: "F",
+    title: "Evangelism and Missions",
+    intro: "Equip students to proclaim the Gospel effectively and participate in local, national and international missions.",
+    items: [],
+    refs: ["Matthew 28:19\u201320", "Acts 1:8"],
+  },
+  {
+    code: "G",
+    title: "Research and Scholarship",
+    intro: "Encourage:",
+    items: ["Biblical research", "Theological reflection", "Writing", "Publications", "Seminars", "Conferences", "Scholarly engagement"],
+  },
+  {
+    code: "H",
+    title: "Community Transformation",
+    intro: "Prepare graduates who use Christian convictions and professional abilities to contribute positively to:",
+    items: ["Families", "Churches", "Communities", "Education", "Business", "Government", "Social development", "Humanitarian activities"],
+  },
+];
+
+const CORE_VALUES = [
+  { title: "Christ-Centeredness", desc: "Jesus Christ is the foundation, focus, and ultimate goal of our education and ministry." },
+  { title: "Biblical Fidelity", desc: "Commitment to the authority, truth, reliability and proper interpretation of Holy Scripture." },
+  { title: "Spirituality", desc: "Genuine fellowship with God through prayer, worship, holiness, faith and obedience." },
+  { title: "Integrity", desc: "Truthfulness, transparency, accountability and moral uprightness." },
+  { title: "Excellence", desc: "Excellence in scholarship, administration, ministry, leadership and service." },
+  { title: "Servant Leadership", desc: "True greatness is demonstrated through service." },
+  { title: "Compassion", desc: "Love, mercy, empathy and compassion in ministry and service." },
+  { title: "Discipline", desc: "Spiritual, academic, personal and professional discipline." },
+  { title: "Accountability", desc: "Responsible stewardship and mutual accountability." },
+  { title: "Mission", desc: "Commitment to evangelism, discipleship, missions, church planting and the Great Commission." },
+  { title: "Unity", desc: "Biblical unity, mutual respect, collaboration and peace within the Body of Christ." },
+  { title: "Innovation", desc: "Responsible creativity and use of contemporary methods and technology for advancing biblical education and ministry." },
+];
+
+const PHILOSOPHY_STEPS = [
+  { k: "Know", d: "Understand God's Word and sound Christian doctrine." },
+  { k: "Become", d: "Develop Christlike character and spiritual maturity." },
+  { k: "Serve", d: "Apply knowledge and gifts in practical ministry." },
+  { k: "Transform", d: "Influence individuals, churches, communities and nations for Christ." },
+];
+
+const GRADUATE_PROFILE = [
+  { title: "Biblically Grounded", desc: "Rooted in the accurate, responsible knowledge and interpretation of Scripture." },
+  { title: "Spiritually Mature", desc: "Marked by a disciplined life of prayer, worship and consistent walk with Christ." },
+  { title: "Theologically Sound", desc: "Able to reason clearly through sound Christian doctrine and biblical truth." },
+  { title: "Ministerially Competent", desc: "Equipped with practical skill in preaching, teaching, discipleship and pastoral care." },
+  { title: "Character Driven", desc: "Distinguished by integrity, humility, accountability and Christlike conduct." },
+  { title: "Missionally Focused", desc: "Committed to evangelism, discipleship and the fulfilment of the Great Commission." },
+  { title: "Leadership Ready", desc: "Prepared to lead ethically, mentor others and manage ministry responsibly." },
+  { title: "Socially Responsible", desc: "Engaged in using Christian conviction to serve families, communities and society." },
+  { title: "A Lifelong Learner", desc: "Committed to continued growth in study, ministry effectiveness and kingdom service." },
+];
+
+const SPIRITUAL_FORMATION_STEPS = ["Prayer", "Word", "Worship", "Character", "Service", "Mission"];
+const SPIRITUAL_FORMATION_ACTIVITIES = [
+  "Chapel services", "Bible study", "Prayer meetings", "Spiritual retreats",
+  "Evangelism outreaches", "Missions exposure", "Mentorship", "Discipleship",
+  "Practical ministry", "Personal devotional development",
+];
+
 const DOCTORATE_FIELDS = ["Education", "Business Administration", "Letters", "Sacred Music", "Theology", "Biblical Studies", "Humanities / Social Services"];
 
 const DOCTORATE_AREAS = ["Church Planting", "Christian Music", "Authorship / Books", "Education", "Business", "Other Significant Christian Contributions"];
@@ -66,27 +220,27 @@ const INSTITUTION_INFO = [
   {
     key: "mission",
     title: "Mission Statement",
-    text: "[Official Mission Statement to be added]",
+    text: "To glorify God by providing sound biblical, theological, and ministerial education that develops spiritual maturity, Christlike character, academic excellence, practical ministry competence, and servant leadership.",
   },
   {
     key: "vision",
     title: "Vision",
-    text: "[Official Vision Statement to be added]",
+    text: "To be a globally recognized center of biblical excellence, theological scholarship, spiritual formation, and ministerial empowerment, raising Christ-centered leaders who will transform the Church and impact nations.",
   },
   {
     key: "aims",
     title: "Aims of the School",
-    text: "[Aims of the School to be added]",
+    text: "Twelve institutional aims guide our work \u2014 from glorifying God through excellent biblical education to preparing graduates for lifelong learning and effective kingdom service.",
   },
   {
     key: "objectives",
     title: "Objectives of the School",
-    text: "[Objectives of the School to be added]",
+    text: "Organized across eight areas \u2014 biblical excellence, spiritual formation, ministerial competence, character, leadership, missions, scholarship, and community transformation.",
   },
   {
     key: "values",
     title: "Core Values",
-    text: "[Core Values to be added]",
+    text: "Twelve values anchor our community, including Christ-centeredness, biblical fidelity, integrity, excellence, servant leadership and accountability.",
   },
 ];
 
@@ -177,13 +331,37 @@ function SectionHead({ eyebrow, title, dark, center, sub }) {
   );
 }
 
-function InfoCard({ title, text }) {
-  const isPlaceholder = /^\[.*\]$/.test(text.trim());
+function InfoCard({ title, text, onMore }) {
   return (
     <Reveal className="info-card">
       <h4>{title}</h4>
-      <p className={isPlaceholder ? "placeholder-text" : ""}>{text}</p>
+      <p>{text}</p>
+      {onMore && (
+        <button className="info-card-more" onClick={onMore}>
+          Read Full Statement &rarr;
+        </button>
+      )}
     </Reveal>
+  );
+}
+
+function Accordion({ items, renderTitle, renderBody, defaultOpen = 0 }) {
+  const [open, setOpen] = useState(defaultOpen === "none" ? -1 : defaultOpen);
+  return (
+    <div className="accordion">
+      {items.map((it, i) => {
+        const isOpen = open === i;
+        return (
+          <div key={i} className={`accordion-item ${isOpen ? "open" : ""}`}>
+            <button className="accordion-trigger" onClick={() => setOpen(isOpen ? -1 : i)}>
+              <span>{renderTitle(it, i)}</span>
+              <span className="accordion-icon">{isOpen ? "\u2212" : "+"}</span>
+            </button>
+            {isOpen && <div className="accordion-body">{renderBody(it, i)}</div>}
+          </div>
+        );
+      })}
+    </div>
   );
 }
 
@@ -446,8 +624,95 @@ export default function App() {
         .info-card h4{font-size:20px;color:var(--navy);margin-bottom:12px;font-family:'Cormorant Garamond',serif;}
         .info-card p{font-size:14.5px;line-height:1.7;color:#4a4f60;margin:0;}
         .info-card p.placeholder-text{color:var(--burgundy);font-style:italic;opacity:0.85;}
+        .info-card-more{background:none;border:none;padding:0;margin-top:14px;font-family:'Inter',sans-serif;font-size:12.5px;letter-spacing:0.06em;color:var(--gold);cursor:pointer;font-weight:700;}
+        .info-card-more:hover{color:var(--burgundy);}
         @media(max-width:980px){.info-grid{grid-template-columns:1fr 1fr;}}
         @media(max-width:620px){.info-grid{grid-template-columns:1fr;}}
+
+        /* MOTTO */
+        .motto-line{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:19px;color:var(--gold-light);margin-top:18px;max-width:600px;}
+
+        /* MANDATE */
+        .mandate-panel{max-width:900px;}
+        .pull-quote{
+          font-family:'Playfair Display',serif;font-style:italic;font-size:24px;line-height:1.5;
+          color:var(--navy);border-left:3px solid var(--gold);padding:6px 0 6px 26px;margin:24px 0 26px;
+        }
+        .pull-quote cite{display:block;font-family:'Inter',sans-serif;font-style:normal;font-size:12px;
+          letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);margin-top:12px;}
+        .mandate-list{
+          margin-top:18px;display:grid;grid-template-columns:1fr 1fr;gap:10px 30px;padding:0;list-style:none;max-width:760px;
+        }
+        .mandate-list li{font-size:14.5px;color:#4a4f60;padding-left:20px;position:relative;line-height:1.6;}
+        .mandate-list li::before{content:"";position:absolute;left:0;top:9px;width:7px;height:7px;background:var(--gold);border-radius:50%;}
+        @media(max-width:620px){.mandate-list{grid-template-columns:1fr;}}
+
+        /* MISSION / VISION */
+        .mv-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:rgba(255,255,255,0.14);margin-top:50px;}
+        .mv-card{background:var(--navy-deep);padding:40px 36px;}
+        .mv-label{font-family:'Inter',sans-serif;font-size:11.5px;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold-light);margin-bottom:16px;font-weight:700;}
+        .mv-card p{font-family:'Playfair Display',serif;font-size:19px;line-height:1.6;color:var(--parchment);font-style:italic;}
+        @media(max-width:880px){.mv-grid{grid-template-columns:1fr;}}
+
+        /* AIMS */
+        .aims-grid{display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid var(--line);}
+        .aim-item{display:flex;gap:18px;align-items:flex-start;padding:20px 24px;border-bottom:1px solid var(--line);}
+        .aim-item:nth-child(odd){border-right:1px solid var(--line);}
+        .aim-num{font-family:'Playfair Display',serif;font-size:17px;color:var(--gold);flex:none;padding-top:1px;}
+        .aim-item p{font-size:14.5px;line-height:1.65;color:#3a3f52;margin:0;}
+        @media(max-width:780px){.aims-grid{grid-template-columns:1fr;} .aim-item:nth-child(odd){border-right:none;}}
+
+        /* ACCORDION */
+        .accordion{border-top:1px solid var(--line);max-width:900px;}
+        .accordion-item{border-bottom:1px solid var(--line);}
+        .accordion-trigger{
+          width:100%;display:flex;justify-content:space-between;align-items:center;background:none;border:none;
+          cursor:pointer;padding:22px 4px;text-align:left;font-family:'Cormorant Garamond',serif;font-size:20px;
+          font-weight:700;color:var(--navy);
+        }
+        .accordion-code{
+          display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;margin-right:12px;
+          background:var(--navy);color:var(--gold-light);font-family:'Inter',sans-serif;font-size:12px;font-weight:700;border-radius:50%;
+        }
+        .accordion-icon{font-family:'Inter',sans-serif;font-size:20px;color:var(--gold);flex:none;padding-left:16px;}
+        .accordion-body{padding:0 4px 26px 42px;}
+        .objective-list{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:8px 24px;}
+        .objective-list li{font-size:14.5px;color:#4a4f60;padding-left:18px;position:relative;line-height:1.6;}
+        .objective-list li::before{content:"\u2013";position:absolute;left:0;color:var(--gold);}
+        @media(max-width:620px){.objective-list{grid-template-columns:1fr;} .accordion-body{padding-left:20px;}}
+
+        /* CORE VALUES */
+        .values-grid-4{grid-template-columns:repeat(4,1fr) !important;}
+        @media(max-width:980px){.values-grid-4{grid-template-columns:repeat(2,1fr) !important;}}
+        @media(max-width:560px){.values-grid-4{grid-template-columns:1fr !important;}}
+
+        /* PHILOSOPHY */
+        .philosophy-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(255,255,255,0.14);}
+        .philosophy-card{background:var(--navy-deep);padding:38px 28px;text-align:center;}
+        .philosophy-num{
+          width:40px;height:40px;border:1px solid var(--gold);color:var(--gold-light);border-radius:50%;
+          display:flex;align-items:center;justify-content:center;margin:0 auto 18px;font-family:'Playfair Display',serif;font-size:17px;
+        }
+        .philosophy-card h4{color:var(--parchment);font-size:20px;margin-bottom:10px;}
+        .philosophy-card p{color:rgba(255,255,255,0.72);font-size:14px;line-height:1.65;margin:0;}
+        @media(max-width:880px){.philosophy-grid{grid-template-columns:1fr 1fr;}}
+        @media(max-width:560px){.philosophy-grid{grid-template-columns:1fr;}}
+
+        /* GRADUATE PROFILE */
+        .grad-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);}
+        .grad-card{background:var(--white);padding:32px 28px;}
+        .grad-card h4{font-size:18px;color:var(--navy);margin-bottom:8px;font-family:'Cormorant Garamond',serif;}
+        .grad-card p{font-size:14px;line-height:1.65;color:#4a4f60;margin:0;}
+        @media(max-width:880px){.grad-grid{grid-template-columns:1fr 1fr;}}
+        @media(max-width:560px){.grad-grid{grid-template-columns:1fr;}}
+
+        /* SPIRITUAL FORMATION PATH */
+        .formation-path{display:flex;flex-wrap:wrap;align-items:center;gap:10px;}
+        .formation-step{
+          font-family:'Inter',sans-serif;font-size:12.5px;letter-spacing:0.08em;text-transform:uppercase;font-weight:700;
+          color:var(--navy);background:var(--parchment-2);border:1px solid var(--line);padding:10px 18px;border-radius:20px;
+        }
+        .formation-arrow{color:var(--gold);font-size:16px;}
 
         /* LEVELS strip */
         .levels-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px;}
@@ -690,6 +955,7 @@ export default function App() {
               <div className="hero-mark">
                 Genesis Bible College <span>&amp; Seminary</span>
               </div>
+              <div className="motto-line" style={{ margin: "10px 0 0" }}>&ldquo;{MOTTO}&rdquo;</div>
               <div className="eyebrow">Biblical Education &middot; Ministry Preparation</div>
               <h1>Equipping Saints for the Work of Ministry</h1>
               <div className="hero-rule" />
@@ -832,7 +1098,7 @@ export default function App() {
               />
               <div className="info-grid">
                 {INSTITUTION_INFO.map((it) => (
-                  <InfoCard key={it.key} title={it.title} text={it.text} />
+                  <InfoCard key={it.key} title={it.title} text={it.text} onMore={() => goTo("about")} />
                 ))}
               </div>
             </div>
@@ -1011,14 +1277,16 @@ export default function App() {
                 servants of God who are grounded in Scripture and prepared for a
                 lifetime of ministry &mdash; through tuition-free theological education.
               </p>
+              <p className="motto-line">&ldquo;{MOTTO}&rdquo;</p>
               <TuitionBadge dark />
             </div>
           </div>
 
+          {/* WHO WE ARE */}
           <section>
             <div className="wrap about-grid">
               <Reveal>
-                <div className="eyebrow">Our Purpose</div>
+                <div className="eyebrow">Who We Are</div>
                 <h2 className="title">A Seminary Built on Conviction</h2>
                 <div className="rule-short" />
                 <p className="body-text">
@@ -1041,17 +1309,168 @@ export default function App() {
             </div>
           </section>
 
+          {/* MANDATE */}
+          <section className="section-parchment2">
+            <div className="wrap">
+              <Reveal className="mandate-panel">
+                <div className="eyebrow">Institutional Mandate</div>
+                <h2 className="title" style={{ marginTop: 10 }}>Rightly Dividing the Word of Truth</h2>
+                <blockquote className="pull-quote">
+                  {MANDATE_VERSE}
+                  <cite>&mdash; {MANDATE_REF}</cite>
+                </blockquote>
+                <p className="body-text" style={{ maxWidth: 760 }}>
+                  Genesis Bible College and Seminary exists to fulfill this biblical
+                  mandate. The institution is committed to:
+                </p>
+                <ul className="mandate-list">
+                  {MANDATE_ITEMS.map((m) => (
+                    <li key={m}>{m}</li>
+                  ))}
+                </ul>
+              </Reveal>
+            </div>
+          </section>
+
+          {/* MISSION & VISION */}
           <section className="section-dark">
             <div className="wrap">
-              <SectionHead eyebrow="Our Foundation" title="Mission, Vision, Aims &amp; Objectives" dark />
-              <div className="info-grid" style={{ marginTop: 50 }}>
-                {INSTITUTION_INFO.map((it) => (
-                  <InfoCard key={it.key} title={it.title} text={it.text} />
+              <SectionHead eyebrow="Our Foundation" title="Mission &amp; Vision" dark />
+              <div className="mv-grid">
+                <Reveal className="mv-card">
+                  <div className="mv-label">Mission Statement</div>
+                  <p>{MISSION_STATEMENT}</p>
+                </Reveal>
+                <Reveal delay={100} className="mv-card">
+                  <div className="mv-label">Vision</div>
+                  <p>{VISION_STATEMENT}</p>
+                </Reveal>
+              </div>
+            </div>
+          </section>
+
+          {/* AIMS */}
+          <section>
+            <div className="wrap">
+              <SectionHead eyebrow="Aims" title="Aims of the School" sub="Genesis Bible College and Seminary shall aim to:" />
+              <div className="aims-grid" style={{ marginTop: 40 }}>
+                {AIMS.map((a, i) => (
+                  <Reveal key={i} delay={(i % 4) * 60} className="aim-item">
+                    <span className="aim-num">{String(i + 1).padStart(2, "0")}</span>
+                    <p>{a}</p>
+                  </Reveal>
                 ))}
               </div>
             </div>
           </section>
 
+          {/* OBJECTIVES */}
+          <section className="section-parchment2">
+            <div className="wrap">
+              <SectionHead eyebrow="Objectives" title="Objectives of the School" sub="Our objectives are organized across eight areas of institutional focus. Select a category to expand it." />
+              <div style={{ marginTop: 40 }}>
+                <Accordion
+                  items={OBJECTIVES}
+                  defaultOpen={0}
+                  renderTitle={(o) => (
+                    <span><span className="accordion-code">{o.code}</span> {o.title}</span>
+                  )}
+                  renderBody={(o) => (
+                    <>
+                      {o.intro && <p className="body-text" style={{ marginBottom: 14 }}>{o.intro}</p>}
+                      {o.items.length > 0 && (
+                        <ul className="objective-list">
+                          {o.items.map((it) => (
+                            <li key={it}>{it}</li>
+                          ))}
+                        </ul>
+                      )}
+                      {o.refs && (
+                        <div className="chip-row" style={{ marginTop: 10 }}>
+                          {o.refs.map((r) => (
+                            <span key={r} className="chip on-light">{r}</span>
+                          ))}
+                        </div>
+                      )}
+                    </>
+                  )}
+                />
+              </div>
+            </div>
+          </section>
+
+          {/* CORE VALUES */}
+          <section>
+            <div className="wrap">
+              <SectionHead eyebrow="Core Values" title="What We Hold To Be True" />
+              <div className="value-grid values-grid-4" style={{ marginTop: 40 }}>
+                {CORE_VALUES.map((v, i) => (
+                  <Reveal key={v.title} delay={(i % 4) * 70} className="value-card">
+                    <Seal size={26} className="Seal" />
+                    <h4>{v.title}</h4>
+                    <p>{v.desc}</p>
+                  </Reveal>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* EDUCATIONAL PHILOSOPHY */}
+          <section className="section-dark">
+            <div className="wrap">
+              <SectionHead eyebrow="Educational Philosophy" title="Know &middot; Become &middot; Serve &middot; Transform" dark center
+                sub="Genesis Bible College and Seminary believes that authentic theological education must develop the whole person&mdash;spiritually, intellectually, morally, practically, and relationally." />
+              <div className="philosophy-grid" style={{ marginTop: 46 }}>
+                {PHILOSOPHY_STEPS.map((p, i) => (
+                  <Reveal key={p.k} delay={i * 90} className="philosophy-card">
+                    <div className="philosophy-num">{i + 1}</div>
+                    <h4>{p.k}</h4>
+                    <p>{p.d}</p>
+                  </Reveal>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* GRADUATE PROFILE */}
+          <section className="section-parchment2">
+            <div className="wrap">
+              <SectionHead eyebrow="Graduate Profile" title="The Kind of Graduate We Aim to Form" />
+              <div className="grad-grid" style={{ marginTop: 40 }}>
+                {GRADUATE_PROFILE.map((g, i) => (
+                  <Reveal key={g.title} delay={(i % 3) * 80} className="grad-card">
+                    <h4>{g.title}</h4>
+                    <p>{g.desc}</p>
+                  </Reveal>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* SPIRITUAL FORMATION */}
+          <section>
+            <div className="wrap">
+              <SectionHead eyebrow="Formation" title="Spiritual Formation" sub="Spiritual growth at Genesis moves through a consistent rhythm:" />
+              <div className="formation-path" style={{ marginTop: 36 }}>
+                {SPIRITUAL_FORMATION_STEPS.map((s, i) => (
+                  <React.Fragment key={s}>
+                    <span className="formation-step">{s}</span>
+                    {i < SPIRITUAL_FORMATION_STEPS.length - 1 && <span className="formation-arrow">&rarr;</span>}
+                  </React.Fragment>
+                ))}
+              </div>
+              <p className="body-text" style={{ marginTop: 30, maxWidth: 760 }}>
+                Students are encouraged toward spiritual growth through avenues such as:
+              </p>
+              <div className="chip-row" style={{ marginTop: 16 }}>
+                {SPIRITUAL_FORMATION_ACTIVITIES.map((a) => (
+                  <span key={a} className="chip on-light">{a}</span>
+                ))}
+              </div>
+            </div>
+          </section>
+
+          {/* LOCATIONS */}
           <section className="section-parchment2">
             <div className="wrap">
               <SectionHead eyebrow="Locations" title="Coordinators Across Nigeria" sub="Genesis Bible College & Seminary maintains representation and coordinators across the following states:" />
@@ -1463,7 +1882,8 @@ export default function App() {
               </div>
               <div className="name">Genesis Bible College &amp; Seminary</div>
             </div>
-            <p>Equipping Saints for the Work of Ministry &mdash; tuition-free biblical education.</p>
+            <p>&ldquo;{MOTTO}&rdquo;</p>
+            <p style={{ marginTop: 6 }}>Tuition-free biblical and theological education.</p>
             <div className="social-row">
               <a href="#" aria-label="Facebook">f</a>
               <a href="#" aria-label="Instagram">ig</a>
