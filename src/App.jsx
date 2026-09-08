@@ -1222,6 +1222,9 @@ export default function App() {
                 <h2 className="title" style={{ color: "var(--parchment)", marginTop: 12 }}>
                   Rev. Amos Ade. Olaojo
                 </h2>
+                <p className="body-text" style={{ color: "rgba(255,255,255,0.6)", fontStyle: "italic", marginTop: 10, fontSize: 13 }}>
+                  Cert. Theo, Dip. B.R.S, B.A. Th, PGDE (NOUN), M.Th (M.BA in view, D.Div in view)
+                </p>
                 <p className="body-text" style={{ color: "var(--gold-light)", marginTop: 8 }}>
                   Rector / President, GBC&amp;S
                 </p>
@@ -1229,9 +1232,6 @@ export default function App() {
                   Genesis Bible College &amp; Seminary is led by its Rector,
                   together with a dedicated team of faculty and academic staff
                   committed to sound biblical teaching and ministry formation.
-                </p>
-                <p className="body-text" style={{ color: "rgba(255,255,255,0.6)", fontStyle: "italic", marginTop: 12, fontSize: 13 }}>
-                  Cert. Theo, Dip. B.R.S, B.A. Th, PGDE (NOUN), M.Th (M.BA in view, D.Div in view)
                 </p>
                 <div style={{ marginTop: 28 }}>
                   <button className="btn-outline" onClick={() => goTo("leadership")}>
@@ -1725,18 +1725,18 @@ export default function App() {
                 <div className="frame" />
               </Reveal>
               <Reveal delay={120}>
-                <div className="eyebrow" style={{ color: "var(--gold-light)" }}>Rector / President</div>
                 <h2 className="title rector-name" style={{ color: "var(--parchment)" }}>
                   Rev. Amos Ade. Olaojo
                 </h2>
+                <p className="body-text" style={{ color: "var(--gold-light)", fontStyle: "italic", marginTop: 10, fontSize: 13.5 }}>
+                  Cert. Theo, Dip. B.R.S, B.A. Th, PGDE (NOUN), M.Th (M.BA in view, D.Div in view)
+                </p>
+                <div className="eyebrow" style={{ color: "var(--gold-light)", marginTop: 14 }}>Rector / President</div>
                 <p className="body-text" style={{ color: "rgba(255,255,255,0.72)", marginTop: 24 }}>
                   The Rector provides overall spiritual and academic leadership
                   for Genesis Bible College &amp; Seminary, working alongside
                   the faculty to guide the institution&rsquo;s mission of
                   tuition-free biblical education.
-                </p>
-                <p className="body-text" style={{ color: "var(--gold-light)", fontStyle: "italic", marginTop: 14, fontSize: 13.5 }}>
-                  Cert. Theo, Dip. B.R.S, B.A. Th, PGDE (NOUN), M.Th (M.BA in view, D.Div in view)
                 </p>
                 <div style={{ marginTop: 30, display: "flex", gap: 14, flexWrap: "wrap" }}>
                   <button className="btn-gold" onClick={() => goTo("contact")}>
