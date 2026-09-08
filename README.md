@@ -1,2 +1,0 @@
-# genesisbiblecollege
-genesisbiblecollege website
